@@ -1,0 +1,62 @@
+
+# PROJECT SECURITY IGNORE RULES
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+
+# Logs
+logs/
+*.log
+
+# Runtime / temp
+tmp/
+temp/
+cache/
+dist/
+build/
+
+# Local configs
+config.json
+*.local.json
+*.json.bak
+
+# Large archives
+*.zip
+*.7z
+*.rar
+
+# 3D / photogrammetry / large assets
+*.las
+*.laz
+*.ply
+*.obj
+*.mtl
+*.fbx
+*.glb
+*.gltf
+*.tif
+*.tiff
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
