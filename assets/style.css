@@ -47,3 +47,7 @@ h3{font-size:20px;line-height:1.25;letter-spacing:-.5px;margin:0 0 10px}
 footer{background:#0d1712;color:#fff;padding:62px 0 22px}.footgrid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:42px}.footgrid p,.footgrid a{color:#9eaaa4;font-size:13px}.footgrid a{display:block;margin:8px 0}.footgrid h4{margin:0 0 14px}.legal{border-top:1px solid #26332c;margin-top:42px;padding-top:20px;display:flex;justify-content:space-between;gap:20px;color:#77847e;font-size:12px}
 @media(max-width:900px){.links,.nav>.btn{display:none}.menu{display:block}.links.open{display:flex;position:absolute;top:76px;left:0;right:0;background:#fff;padding:24px 20px;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}.hero-grid,.split{grid-template-columns:1fr;gap:42px}.cards{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr}.footgrid{grid-template-columns:1fr 1fr}h1{letter-spacing:-2.2px}}
 @media(max-width:620px){.wrap{width:min(100% - 28px,1180px)}.hero{padding:58px 0}.section{padding:70px 0}.cards,.process,.formgrid,.footgrid{grid-template-columns:1fr}.span2{grid-column:auto}.band .inner,.legal{flex-direction:column;align-items:flex-start}.panel,.quote{padding:23px}.micro{display:grid;gap:9px}h1{font-size:43px;letter-spacing:-1.8px}.pagehero h1{font-size:40px}.links.open{gap:16px}}
+
+/* Räumora brand assets */
+.brandmark{background:transparent;overflow:hidden}
+.brandmark img{display:block;width:42px;height:42px;border-radius:12px}
